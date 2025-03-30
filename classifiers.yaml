@@ -1,0 +1,488 @@
+classification_rules:
+  NEGATIVE_TALK:
+    code: "NTA"
+    definition: |
+      Negative Talk is a verbal expression of disapproval of the child or the child's attributes,
+      activities, products, or choices. Negative Talk also includes sassy, sarcastic, rude, or impudent speech.
+
+    sub_definitions:
+      explicit_negative_evaluations:
+        definition: "Comments explicitly containing negatively evaluative words about the child's actions, attributes, products, or choices."
+        examples:
+          - "That's a messy picture."
+          - "You're being naughty."
+          - "That's crooked."
+
+      implicit_negative_evaluations:
+        definition: "Comments implicitly indicating negative evaluation without explicit negative words."
+        examples:
+          - "The line is crooked."
+          - "That was slow."
+
+      insincere_questions:
+        definition: "Insincere questions implying negative evaluation."
+        examples:
+          - "Why don't you ever listen?"
+          - "What do you think you're doing?"
+
+      unacceptable_degree_or_level:
+        definition: "Negative comments about an unacceptable level or degree of behavior."
+        examples:
+          - "You're talking too loudly."
+          - "You're too slow."
+
+      behavior_correction:
+        definition: "Comments that correct the child's behavior, even in playful tones."
+        examples:
+          - "That's not where it goes, honey."
+          - "You're still not using exactly the right colors."
+
+      direct_negation_of_child:
+        definition: "Statements directly telling the child they are incorrect."
+        examples:
+          - "That is not red."
+          - "You're wrong."
+
+      negative_self_evaluation_exception:
+        definition: "Corrections of child's negative self-evaluations are NOT Negative Talk."
+        examples:
+          - "You didn't break it."
+
+      no_as_negative_appraisal:
+        definition: "Using 'No' to negatively appraise child after self-evaluation."
+        examples:
+          - "Child: Am I smart? Parent: No."
+
+      prohibitive_no:
+        definition: "Using 'No' to indicate child should stop or not start a behavior."
+        examples:
+          - "No, don't do that."
+
+      repeated_single_word:
+        definition: "Repeated critical words without pause are coded as one NTA."
+        examples:
+          - "No, no, no."
+          - "Terrible, terrible."
+
+      conditional_statements_negative_consequence:
+        definition: "Conditional statements referring to ongoing behavior with negative consequences."
+        examples:
+          - "If you stop pinching, we'll have more time to play."
+
+      general_rules_pointing_out_wrong_behavior:
+        definition: "General rules stated to point out child's immediate wrong behavior."
+        examples:
+          - "Children shouldn't yell when they're inside."
+
+      sassy_sarcastic_tone:
+        definition: "Statements made with a sarcastic or sassy tone."
+        examples:
+          - "Oh, that's great!"
+          - "Are you kidding?"
+
+      refusal_no_after_command:
+        definition: "Parent responding 'No' to child's command with delay or no immediate follow-up."
+        examples:
+          - "Child: Pick that up. Parent: No."
+
+      sassy_content_without_tone:
+        definition: "Statements containing sassy content, even without tone."
+        examples:
+          - "Who do you think you're talking to?"
+
+      name_calling:
+        definition: "Equating child or others with negatively evaluative words."
+        examples:
+          - "You're stupid."
+
+      profanity_swearing:
+        definition: "Comments containing swearing or profanity."
+        examples:
+          - "That was idiotic."
+
+      unconventional_negative_consequence:
+        definition: "Unconventional or nonspecific negative consequence statements."
+        examples:
+          - "If you throw that, I'll kick your behind."
+
+      multiple_verb_phrases_single_behavior:
+        definition: "Multiple verb phrases about one behavior coded as single NTA."
+        examples:
+          - "Don't put that on the floor and get it dirty."
+
+  DIRECT_COMMAND:
+    code: "DC"
+    definition: |
+      Direct commands are declarative statements explicitly instructing the child to perform an action.
+    guidelines:
+      - Always contain imperative verbs directed explicitly or implicitly at the child ("you").
+      - Can include necessity words such as "must," "should," or "have to."
+      - If a statement begins as indirect but ends direct, code as Direct Command.
+    examples:
+      - "Sit down now."
+      - "You must put your toys away."
+      - "Take this crayon and color."
+    sub_definitions:
+      imperative_verb_usage:
+        definition: "Commands always contain imperative verbs explicitly or implicitly directed at the child."
+        examples:
+          - "Please sit down."
+          - "Pick up your toys."
+      necessity_words:
+        definition: "Use of necessity words indicating mandatory compliance."
+        examples:
+          - "You must wash your hands."
+          - "You should finish your homework."
+      indirect_to_direct_shift:
+        definition: "Statements starting as indirect commands but ending as direct commands are coded as direct."
+        examples:
+          - "Would you... Actually, just sit down."
+      repeated_commands:
+        definition: "The same command word repeated without a pause is coded as one direct command."
+        examples:
+          - "Wait, wait, wait."
+      combined_imperative_phrases:
+        definition: "Multiple imperative phrases referring to one action count as one direct command."
+        examples:
+          - "Try and stay in the lines."
+
+  INDIRECT_COMMAND:
+    code: "IC"
+    definition: |
+      Indirect commands are statements or questions suggesting or implying a child's action without direct imperative phrasing.
+      guidelines:
+        - Often phrased as questions, suggestions, or conditional statements.
+        - Include statements with subjects like "we" or "let's."
+        - Statements expressing parent's feelings or preferences toward child's action.
+        - Conditional statements specifying conventional consequences.
+    examples:
+      - "Can you pick that up?"
+      - "Would you like to draw?"
+      - "Let's clean up now."
+      - "If you sit quietly, we can play later."
+    sub_definitions:
+      question_form_commands:
+        definition: "Commands phrased as questions suggesting an action."
+        examples:
+          - "Could you hand me the pencil?"
+          - "Will you help clean up?"
+      conditional_consequence:
+        definition: "Conditional statements specifying a conventional consequence."
+        examples:
+          - "If you finish your homework, we'll watch a movie."
+          - "If you keep quiet, I'll give you candy."
+      parent_preferences:
+        definition: "Statements expressing parent's personal preference or feelings directed at child's action."
+        examples:
+          - "I'd like you to sit down now."
+          - "I wish you would clean your room."
+      unclear_compliance_commands:
+        definition: "Statements phrased where compliance necessity is unclear."
+        examples:
+          - "You might want to pick those up."
+          - "Maybe you could help me clean."
+
+  LABELED_PRAISE:
+    code: "LP"
+    definition: |
+      Labeled Praise provides a positive evaluation of a specific attribute, product, or behavior of the child.
+    sub_definitions:
+      specific_behavior:
+        definition: "Positive evaluation explicitly tied to a specific child behavior."
+        examples:
+          - "Good job sitting quietly."
+          - "Your coloring is beautiful."
+
+      specific_product:
+        definition: "Positive evaluation explicitly tied to a specific product of the child's behavior."
+        examples:
+          - "I love the airplane you made for me."
+          - "The dog you drew is very pretty."
+
+      specific_attribute_with_behavior:
+        definition: "Praise describing a mental or physical attribute of the child tied explicitly to a specific behavior."
+        examples:
+          - "Your hair is beautiful when you comb it."
+          - "You are imaginative with your stories."
+
+      parent_expressions_of_appreciation:
+        definition: "Direct expressions of appreciation or pleasure about a specific behavior or product of the child."
+        examples:
+          - "I'm glad that you shared your markers with me."
+          - "I'm thrilled to see you working on that until you get it."
+
+      specified_nonspecific_behaviors:
+        definition: "Evaluations of nonspecific behaviors (e.g., 'work,' 'play,' 'act,' or 'try') that are clearly specified."
+        examples:
+          - "I like the way you're working to make it high."
+          - "You're playing nicely with the animals."
+
+  UNLABELED_PRAISE:
+    code: "UP"
+    definition: |
+      Unlabeled Praise provides a positive evaluation of the child, an attribute of the child, or a nonspecific activity, behavior, or product.
+    sub_definitions:
+      general_positive_evaluation:
+        definition: "Positive evaluative words or phrases that do not indicate the specific behavior or product evaluated."
+        examples:
+          - "That's terrific!"
+          - "Good."
+
+      positive_self_evaluation_response:
+        definition: "Parent's affirmative responses to child's positive self-evaluations."
+        examples:
+          - "Child: I did a good job, didn't I? Parent: Of course you did."
+
+      nonspecific_behavior:
+        definition: "Praises that refer to nonspecific nouns or behaviors without clearly specifying the child's action."
+        examples:
+          - "Good job."
+          - "Nice work."
+
+      attributes_without_behavior:
+        definition: "Praises describing attributes without explicitly relating them to specific behaviors or products."
+        examples:
+          - "Your eyes are pretty."
+          - "You have great muscles."
+
+      affirmative_evaluative_responses:
+        definition: "Parent's simple affirmative responses to child's evaluative questions."
+        examples:
+          - "Child: Do you like my dress? Parent: Yes."
+  
+  INFORMATION_QUESTION:
+    code: "IQ"
+    definition: |
+      Information Questions request specific information from the child beyond a simple affirmative or negative response.
+    sub_definitions:
+      request_specific_information:
+        definition: "Questions explicitly asking for information that goes beyond 'yes' or 'no'."
+        examples:
+          - "What did Santa bring you?"
+          - "Where is Mexico?"
+
+      repeated_information_questions:
+        definition: "Single-word information questions repeated without pause count as one Information Question."
+        examples:
+          - "Why, why, why?"
+
+      choices_and_preferences:
+        definition: "Questions offering multiple choices or asking explicitly about preferences or opinions."
+        examples:
+          - "Do you want the red, green, or blue ones?"
+          - "Would you like to build a house or a school?"
+
+      clarification_questions:
+        definition: "Questions used explicitly to clarify or request repetition."
+        examples:
+          - "Child: (mumbles) Parent: Huh?"
+
+  DESCRIPTIVE_QUESTION:
+    code: "DQ"
+    definition: |
+      Descriptive Questions require no more than a brief affirmative or negative response (e.g., "yes" or "no"), even if additional information is provided by the child.
+    sub_definitions:
+      rising_inflection:
+        definition: "Statements become Descriptive Questions due to rising inflection at the end."
+        examples:
+          - "That's the baby?"
+          - "You have the cars?"
+
+      question_tags:
+        definition: "Statements turned into Descriptive Questions through the addition of a question tag."
+        examples:
+          - "You're driving fast, aren't you?"
+          - "Yours is green, isn't it?"
+
+      standard_descriptive_forms:
+        definition: "Questions starting with 'Do you know,' 'Do you want,' 'Do you remember,' or 'Are you going to' are automatically Descriptive Questions."
+        examples:
+          - "Do you know how to find it?"
+          - "Are you going to the farm?"
+
+      repeated_descriptive_questions:
+        definition: "Repeated descriptive questions are always Descriptive Questions."
+        examples:
+          - "Child: Do you want to go next? Parent: Do you want to go next?"
+
+      brief_affirmative_responses:
+        definition: "Questions expecting simple 'yes' or 'no' responses, even if the child provides more detail."
+        examples:
+          - "Is this my block?"
+          - "Do you wanna build a castle?"
+
+  REFLECTION:
+    code: "RF"
+    definition: |
+      Reflections are declarative phrases or statements that retain the meaning of the child's verbalization. They may repeat, paraphrase, or elaborate without changing or interpreting the child's intended meaning.
+    sub_definitions:
+      repetition_paraphrase:
+        definition: "Direct repetitions or paraphrases of child's statements without altering meaning."
+        examples:
+          - "Child: The pig is fat. Parent: The pig is fat."
+          - "Child: I drew a spaceship. Parent: You drew a spaceship."
+
+      elaboration:
+        definition: "Reflections that add descriptive elaborations or grammatical corrections without changing original meaning."
+        examples:
+          - "Child: Cow moo. Parent: The cow says moo."
+          - "Child: I made a big square. Parent: You made a big square in the circle."
+
+      retained_meaning:
+        definition: "Statements retaining the basic meaning, even with synonyms or slight grammatical changes."
+        examples:
+          - "Child: This game is fun. Parent: You like playing this game."
+          - "Child: I'm landing my helicopter. Parent: OK, you're landing it."
+
+      stated_feelings:
+        definition: "Reflections of explicitly stated feelings without interpreting unstated emotions."
+        examples:
+          - "Child: I'm mad at you. Parent: You're mad at me."
+          - "Child: I'm scared to make it higher. Parent: You're scared."
+
+      immediate_temporal_relation:
+        definition: "Reflections made within approximately 5 seconds of child's statement."
+        examples:
+          - "Child: I love the Teddy Bear. Parent (within 1 sec): You think that Teddy Bear is pretty cool."
+      
+      single_word_or_phrase:
+        definition: "Repetitions of meaningful single words or short phrases from child's statement indicating acknowledgment."
+        examples:
+          - "Child: I can build a rocket. Parent: A rocket."
+
+  BEHAVIOR_DESCRIPTION:
+    code: "BD"
+    definition: |
+      Behavior Descriptions are non-evaluative, declarative sentences describing the child's ongoing or immediately completed observable behavior.
+    sub_definitions:
+      immediate_observable_behavior:
+        definition: "Descriptions of behavior currently or just completed within approximately 5 seconds."
+        examples:
+          - "You're building a truck."
+          - "You just finished the red one."
+
+      actor_specification:
+        definition: "Statements clearly specifying the child as the actor, often explicitly using 'you.'"
+        examples:
+          - "You're feeding the cow."
+          - "You're drawing a big apple."
+
+      non_evaluative_description:
+        definition: "Statements describing behavior without evaluations or judgments."
+        examples:
+          - "You're pushing the truck up the ramp."
+          - "You're lining up lots of cards."
+
+      descriptive_action_verbs:
+        definition: "Behavior Descriptions using clear, observable action verbs."
+        examples:
+          - "You're counting."
+          - "You're covering it to protect it."
+
+      collaborative_behavior:
+        definition: "Descriptions referring to joint behaviors involving parent and child together."
+        examples:
+          - "We're building a house."
+          - "You and I are making a big fort."
+
+      multiple_behavior_descriptions:
+        definition: "Multiple verb phrases describing different behaviors joined in one sentence, coded separately."
+        examples:
+          - "You're drawing the tree, coloring the leaves."
+
+      future_immediate_behavior:
+        definition: "Statements about immediate future behaviors the child has already initiated."
+        examples:
+          - "Child: (drawing) Parent: You are going to draw a picture."
+
+      you_can_statements:
+        definition: "'You can' statements describing behavior the child has demonstrated or completed."
+        examples:
+          - "Child: (drawing) Parent: You can draw colorful flowers."
+
+  NEUTRAL_TALK:
+    code: "TA"
+    definition: |
+      Neutral Talk statements introduce information about other people, objects, events, or activities, or simply acknowledge current activity, but do not direct, describe, or evaluate the child's current or immediately completed behavior.
+    sub_definitions:
+      independent_behavior:
+        definition: "Statements about the parent's own independent actions."
+        examples:
+          - "I'm making a rainbow just like yours."
+          - "I'm picking out all the blue ones."
+
+      feelings_motivations:
+        definition: "Statements expressing the parent's or child's feelings or motivations without describing behaviors."
+        examples:
+          - "I feel happy too."
+          - "You seem upset because of the missing pieces."
+
+      general_comments:
+        definition: "Statements about toys, objects, people, or general activities not describing child's behavior."
+        examples:
+          - "The doll is going to sleep."
+          - "Your dad made a nice sail."
+
+      state_of_being_verbs:
+        definition: "Statements using state-of-being verbs (e.g., be, have) that describe thoughts, feelings, motivations, or facts."
+        examples:
+          - "You have a blue dog."
+          - "You are thinking about the order."
+
+      future_behaviors:
+        definition: "Statements about predicted future behaviors not directly instructing the child."
+        examples:
+          - "You're going to fall."
+          - "Then you'll need more blocks."
+
+      general_rules:
+        definition: "General rules stated positively or negatively without criticizing ongoing behavior."
+        examples:
+          - "Children should talk nicely to their parents."
+          - "You can't hold them too tightly."
+
+      brief_acknowledgements:
+        definition: "Brief verbal acknowledgments indicating attention or surprise."
+        examples:
+          - "Uh-huh."
+          - "Oh my!"
+
+      conditional_statements:
+        definition: "Conditional statements specifying natural consequences or neutral responses likely to occur."
+        examples:
+          - "If you say thank you, people will like you."
+          - "If you put it there, it might fall."
+
+      automatic_social_phrases:
+        definition: "Automatically used social phrases that do not describe, direct, or evaluate child's behavior."
+        examples:
+          - "Bless you."
+          - "You're welcome."
+
+      statements_about_non_behavior:
+        definition: "Noncritical statements describing what the child is not doing."
+        examples:
+          - "You're not using the green crayons."
+          - "You didn't make it too big."
+
+      idiomatic_expressions:
+        definition: "Common expressions of surprise or acknowledgment without evaluative intent."
+        examples:
+          - "Gee."
+          - "Oops."
+
+      parental_permission_responses:
+        definition: "Responses granting permission following child's explicit request."
+        examples:
+          - "Child: Can I take the red crayon? Parent: You can take the red crayon."
+
+      refusal_no:
+        definition: "Using 'No' or synonyms as neutral responses indicating factual corrections or contradictions not negatively evaluative."
+        examples:
+          - "Child: I'm ugly. Parent: No, you're not."
+
+      neutral_statements_series:
+        definition: "Neutral statements lacking explicit action verbs or descriptions of child's behavior."
+        examples:
+          - "The blue block."
+          - "A red circle."

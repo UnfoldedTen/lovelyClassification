@@ -1,0 +1,49 @@
+coding_rules:
+  complete_thought_rule:
+    description: |
+      One unit of behavior is defined by a complete thought. Sentence fragments without independent meaning are combined with later completions if uninterrupted.
+    examples:
+      - utterance: "This is a... [pause] cat."
+        outcome: "Single verbalization."
+
+  two_second_rule:
+    description: |
+      When unclear if verbalizations constitute separate thoughts, pauses of two or more seconds result in separate verbalizations.
+    examples:
+      - utterance: "Put the green block here. [3 sec pause] And the red one here."
+        outcome: "Two verbalizations."
+
+  superfluous_phrases_rule:
+    description: |
+      Superfluous introductory phrases ("I see," "Well," "Now," "I said,") are ignored and not coded separately.
+    examples:
+      - utterance: "Well, that's a nice picture."
+        outcome: "Intro phrase ignored."
+
+  yes_no_rule:
+    description: |
+      "Yes," "No," and close synonyms ("yeah," "nope") are coded independently from subsequent verbalizations.
+    examples:
+      - utterance: "Yes, it is big."
+        outcome: "Two separate codes (Yes coded independently)."
+
+  distributive_rule:
+    description: |
+      Verb clauses joined by "and" or "but" are coded separately unless a clear 2-second pause indicates a new verbalization.
+    examples:
+      - utterance: "Can you pick up the toy and put it away?"
+        outcome: "Two separate verbalizations."
+
+  compound_sentences_rule:
+    description: |
+      Independent clauses joined by "and," "but," "so," or "because" are coded separately.
+    examples:
+      - utterance: "Sit here, and draw a picture."
+        outcome: "Two separate verbalizations."
+
+  multiple_consecutive_verbalizations_rule:
+    description: |
+      Interrupted verbalizations completed after interruptions are coded separately if self-interrupted, otherwise based on content continuity.
+    examples:
+      - utterance: "You're building... [parent interrupts with unrelated comment]...a tower."
+        outcome: "Coded based on interruption nature."
